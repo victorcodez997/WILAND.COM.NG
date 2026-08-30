@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us — Wiland Electrical Solutions</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="css/construction-template.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header" id="header">
+      <div class="container header-row">
+        <a href="index.html" class="logo-link" aria-label="Wiland home">
+          <img
+            src="assets/images/wilandlogo-ash.png"
+            alt="Wiland logo"
+            class="logo-img"
+          />
+        </a>
+        <a href="contact.html" class="talk-engineer-btn">Talk to an Engineer</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <nav class="nav" id="nav">
+      <div class="nav__panel">
+        <div class="nav__panel-top">
+          <img
+            src="assets/images/wilandlogo-white.png"
+            alt="Wiland logo"
+            class="nav__panel-logo-img"
+          />
+          <button
+            class="nav__close"
+            id="navClose"
+            type="button"
+            aria-label="Close menu"
+          >
+            <span></span><span></span>
+          </button>
+        </div>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li>
+            <a href="contact.html" class="nav__link active">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__panel-meta">
+          <a href="tel:+2347030926676" class="nav__panel-phone"
+            >+234 703 092 6676</a
+          >
+          <a href="mailto:info@wilandelectrical.com" class="nav__panel-email"
+            >info@wilandelectrical.com</a
+          >
+          <a href="contact.html" class="talk-engineer-btn">Talk to an Engineer</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-hero page-hero--alt">
+      <div class="container">
+        <h1 class="page-hero__title">Contact <span>Wiland</span></h1>
+        <p class="page-hero__sub">
+          Reach out for a free consultation, site assessment, or project quote.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-page">
+      <div class="container">
+        <div class="contact-page__grid">
+          <div class="contact-info">
+            <h3>Let's Talk About Your Security Needs</h3>
+            <p>
+              Whether you need a single alarm system or a fully integrated
+              security solution for a large facility, our team is ready to help.
+              Contact us today for a free consultation.
+            </p>
+            <div class="contact-info__items">
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <h5>Phone</h5>
+                  <a href="tel:+2347030926676">+234 703 092 6676</a>
+                </div>
+              </div>
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h5>Email</h5>
+                  <a href="mailto:info@wilandelectrical.com"
+                    >info@wilandelectrical.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h5>Location</h5>
+                  <p>Nigeria</p>
+                </div>
+              </div>
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <h5>Business Hours</h5>
+                  <p>
+                    Monday – Friday: 8:00am – 6:00pm<br />Saturday: 9:00am –
+                    3:00pm
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <p class="contact-form__intro">
+              Tell us a bit about your project and we'll put together a
+              tailored recommendation — mix and match as many services as
+              you need.
+            </p>
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="John"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Doe"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+234 000 000 0000"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="company">Company / Organization</label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Optional"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="propertyType">Property Type</label>
+                  <select id="propertyType" name="propertyType">
+                    <option value="">Select property type...</option>
+                    <option>Residential Home</option>
+                    <option>Office / Commercial</option>
+                    <option>Industrial Facility</option>
+                    <option>Critical Infrastructure</option>
+                    <option>Hospitality / Hotel</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Services You're Interested In</label>
+                <div class="service-checklist">
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Alarm Systems" />
+                    <span>Alarm Systems</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Surveillance Systems" />
+                    <span>Surveillance Systems</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Automation Systems" />
+                    <span>Automation Systems</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Perimeter Protection" />
+                    <span>Perimeter Protection</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Networking" />
+                    <span>Networking</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Barrier Systems" />
+                    <span>Barrier Systems</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Access Control" />
+                    <span>Access Control</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="24/7 Security Monitoring" />
+                    <span>24/7 Security Monitoring</span>
+                  </label>
+                  <label class="service-check">
+                    <input type="checkbox" name="services" value="Not Sure Yet" />
+                    <span>Not Sure Yet — Need Advice</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="location">Project Location</label>
+                  <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    placeholder="City, State"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="timeline">Project Timeline</label>
+                  <select id="timeline" name="timeline">
+                    <option value="">Select timeline...</option>
+                    <option>Immediate / Urgent</option>
+                    <option>Within 1 Month</option>
+                    <option>1–3 Months</option>
+                    <option>Just Researching</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMethod">Preferred Contact Method</label>
+                <select id="contactMethod" name="contactMethod">
+                  <option value="">Select preferred method...</option>
+                  <option>Phone Call</option>
+                  <option>WhatsApp</option>
+                  <option>Email</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Project Details</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us about your site, scale, and specific security or automation requirements..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__top">
+        <div class="footer__brand">
+          <img
+            src="assets/images/wilandlogo-white.png"
+            alt="Wiland logo"
+            class="footer__logo"
+          />
+          <p>
+            Wiland Electrical Solutions — delivering integrated security and
+            electrical systems with precision and professionalism.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">Alarm Systems</a></li>
+            <li>
+              <a href="services.html">Surveillance Systems</a>
+            </li>
+            <li><a href="services.html">Automation Systems</a></li>
+            <li><a href="services.html">Perimeter Protection</a></li>
+            <li><a href="services.html">Networking</a></li>
+            <li><a href="services.html">Barrier Systems</a></li>
+            <li><a href="services.html">Access Control</a></li>
+            <li><a href="services.html">24/7 Monitoring</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact Us</h5>
+          <ul class="footer__contact">
+            <li>
+              <i class="fas fa-phone"></i
+              ><a href="tel:+2347030926676">+234 703 092 6676</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i
+              ><a href="mailto:info@wilandelectrical.com"
+                >info@wilandelectrical.com</a
+              >
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i> Nigeria</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <p>&copy; 2026 Wiland Electrical Solutions. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

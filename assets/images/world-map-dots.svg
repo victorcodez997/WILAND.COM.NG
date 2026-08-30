@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" aria-hidden="true">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3" fill="#d7d9de"/>
+    </pattern>
+  </defs>
+
+  <!-- North America -->
+  <path fill="url(#dots)" d="M85 210c20-38 62-67 112-74l67-7 43-36 95 5 42 29 56-7 39 17-22 36-52 14-20 30 23 31-29 22-56 5-35 24-67-8-21-34-56-9-39-34-65-4-28-32z"/>
+
+  <!-- Greenland -->
+  <path fill="url(#dots)" d="M510 74l58-11 50 14 24 27-28 25-60-2-43-27z"/>
+
+  <!-- South America -->
+  <path fill="url(#dots)" d="M374 315l60 5 49 41 13 56-23 47 18 69-46 67-59-25-28-53 13-45-27-42 12-54 18-38z"/>
+
+  <!-- Europe -->
+  <path fill="url(#dots)" d="M690 175l45-18 71 5 38 22-17 29-48 13-42 21-53-7-24-25z"/>
+
+  <!-- Africa -->
+  <path fill="url(#dots)" d="M703 255l61-7 58 27 33 56-16 55 33 50-23 58-56 18-57-21-33-49 10-42-19-39 3-46z"/>
+
+  <!-- Asia -->
+  <path fill="url(#dots)" d="M818 162l120-29 156 9 121 25 118 16 68 35-37 30-65-5-45 20 21 42-26 33-58 5-44 26-75 14-54-13-40 23-68-8-48-35-53-3-29-42 22-52-20-35z"/>
+
+  <!-- India + SE Asia -->
+  <path fill="url(#dots)" d="M1005 360l54-6 38 25 16 40-28 24-41-15-39-36z"/>
+
+  <!-- Japan -->
+  <path fill="url(#dots)" d="M1278 270l23-12 15 14-9 21-20 9-18-13z"/>
+
+  <!-- Australia -->
+  <path fill="url(#dots)" d="M1220 470l90-21 92 21 31 48-19 43-67 19-82-7-56-34-13-41z"/>
+
+  <!-- Madagascar -->
+  <path fill="url(#dots)" d="M889 474l20-6 14 18-8 28-21 8-13-20z"/>
+</svg>
