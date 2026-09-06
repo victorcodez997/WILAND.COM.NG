@@ -122,24 +122,3 @@ if (hasPageLinks) {
 
   els.forEach((el) => observer.observe(el));
 })();
-
-// ── Filter tabs (services page) ──
-function initFilter(btnSelector, cardSelector) {
-  const btns = document.querySelectorAll(btnSelector);
-  const cards = document.querySelectorAll(cardSelector);
-  if (!btns.length || !cards.length) return;
-
-  btns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      btns.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      const filter = btn.getAttribute("data-filter");
-      cards.forEach((card) => {
-        const cat = card.getAttribute("data-cat");
-        card.style.display = filter === "all" || cat === filter ? "" : "none";
-      });
-    });
-  });
-}
-
-initFilter(".services-page .filter-btn", "#services-grid .catalog-card");
